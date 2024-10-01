@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body{
+    background: linear-gradient(#01012e, #240019);
+    height: 100vh;
+    
+}
+
+.container{
+background-color: #fff;
+/* padding: 30px 20px; */
+padding: 40px 30px;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+width: 500px;
+max-width: 75%;
+border-radius: 6px;
+}
+
+.search-wrapper {
+display: grid;
+grid-template-columns: 3fr 1fr;
+gap: 10px;
+}
+
+.search-wrapper button {
+font-size: 16px;
+color: white;
+/* background-color: #240019; */
+background: linear-gradient(#01012e, #240019);
+padding: 15px 0 ;
+border: none;
+border-radius: 9999px;
+cursor: pointer;
+}
+
+.search-wrapper input {
+    font-size: 16px;
+    padding: 0 10px;
+    border: none;
+    border-bottom: 2px solid #240019;
+    outline: none;
+    color: #222a43;
+    font-weight: 600;
+}
+
+#result{
+    margin-top: 20px ;
+}
+.container .flag-img{
+ display: block;
+ width: 45%;
+ min-width: 200px;
+ margin: 20px auto ;
+}
+
+.container h2{
+    font-weight: 600;
+    color: #222a43;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.data-wrapper {
+    margin-bottom: 25px;
+    letter-spacing: 0.5px;
+}
+
+.container h4 {
+    display: inline;
+    font-weight: 500;
+    color: #222a43;
+}
+
+.container span {
+color: #5d6274;
+}
+
+.container h3{
+    text-align: center;
+    font-size: 18px;
+    color: #ff465a;
+}
